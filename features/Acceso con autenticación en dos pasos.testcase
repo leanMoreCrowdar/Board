@@ -10,7 +10,7 @@ Title:
 Acceso con autenticación en dos pasos
 
 Description:
-Verificar que el usuario pueda completar login con OTP.
+modificar.
 
 Preconditions:
 Usuario configurado con 2FA.
