@@ -1,0 +1,23 @@
+#ltm_test_case_id: - 206d52ea-d705-4e48-bb35-f00edce84a82 - 
+
+Tags:
+@Sesión @Security
+
+Identifier:
+TC020
+
+Title:
+Expiración de sesión
+
+Description:
+Verificar que la sesión expire tras un tiempo de inactividad.
+
+Preconditions:
+El usuario debe haber iniciado sesión.
+
+Steps:
+1. No realizar actividad por 30 minutos
+2. Intentar navegar
+
+Expected Result:
+El sistema redirige al login indicando expiración.

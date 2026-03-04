@@ -1,0 +1,23 @@
+#ltm_test_case_id: - dcdb5914-21f2-414e-8636-d028443f2646 - 
+
+Tags:
+@Login @Security
+
+Identifier:
+TC017
+
+Title:
+Intentar login sin activación
+
+Description:
+Verificar que un usuario no pueda iniciar sesión sin activar su cuenta.
+
+Preconditions:
+El usuario debe estar registrado pero no activado.
+
+Steps:
+1. Ingresar usuario y contraseña válidos
+2. Hacer clic en Ingresar
+
+Expected Result:
+El sistema muestra mensaje indicando que la cuenta no está activa.

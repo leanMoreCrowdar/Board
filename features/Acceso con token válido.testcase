@@ -1,0 +1,22 @@
+#ltm_test_case_id: - fb1c2a6f-dbab-4591-8395-b93a33a9a19d - 
+
+Tags:
+@API @Smoke
+
+Identifier:
+TC030
+
+Title:
+Acceso con token válido
+
+Description:
+Verificar que la API acepte solicitudes con token válido.
+
+Preconditions:
+Usuario autenticado con token válido.
+
+Steps:
+1. Realizar una solicitud con token válido
+
+Expected Result:
+La API responde con los datos esperados.

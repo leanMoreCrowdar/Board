@@ -1,0 +1,24 @@
+#ltm_test_case_id: - 57491e79-e404-4926-948c-2da9e964eeed - 
+
+Tags:
+@Calendario @CRUD
+
+Identifier:
+TC044
+
+Title:
+Agregar nuevo evento
+
+Description:
+Verificar que el usuario pueda crear un evento nuevo.
+
+Preconditions:
+Usuario con permisos.
+
+Steps:
+1. Abrir calendario
+2. Agregar evento
+3. Guardar
+
+Expected Result:
+El evento aparece correctamente en el calendario.

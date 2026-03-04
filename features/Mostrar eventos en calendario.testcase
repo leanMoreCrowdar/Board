@@ -1,0 +1,22 @@
+#ltm_test_case_id: - 4ee878a4-5d81-47de-a8a7-7e288ea395d8 - 
+
+Tags:
+@Calendario @UI
+
+Identifier:
+TC043
+
+Title:
+Mostrar eventos en calendario
+
+Description:
+Verificar que el calendario muestre los eventos programados.
+
+Preconditions:
+Usuario con eventos en base de datos.
+
+Steps:
+1. Acceder a calendario
+
+Expected Result:
+Los eventos se muestran en la fecha y hora correctas.

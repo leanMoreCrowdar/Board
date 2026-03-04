@@ -1,0 +1,23 @@
+#ltm_test_case_id: - b0ee08e5-57c4-400c-b011-7503b7b1ba69 - 
+
+Tags:
+@Login @Smoke
+
+Identifier:
+TC005
+
+Title:
+Acceso con campos vacíos
+
+Description:
+Verificar que el sistema no permita el acceso si los campos están vacíos.
+
+Preconditions:
+
+
+Steps:
+1. Dejar campos de usuario y contraseña vacíos
+2. Hacer clic en Ingresar
+
+Expected Result:
+El sistema muestra un mensaje solicitando completar los campos obligatorios.
