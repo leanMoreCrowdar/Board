@@ -10,7 +10,7 @@ Title:
 Acceso restringido por rol
 
 Description:
-Verificar que un usuario sin permisos no pueda acceder a recursos restringidos.
+HOLA
 
 Preconditions:
 El usuario debe estar autenticado sin el rol requerido.
