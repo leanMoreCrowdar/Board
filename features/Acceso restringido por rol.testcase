@@ -1,0 +1,22 @@
+#ltm_test_case_id: - 875847e1-9a23-4e45-8db9-4cb42b51a5e8 - 
+
+Tags:
+@Roles @Security
+
+Identifier:
+TC022
+
+Title:
+Acceso restringido por rol
+
+Description:
+Verificar que un usuario sin permisos no pueda acceder a recursos restringidos.
+
+Preconditions:
+El usuario debe estar autenticado sin el rol requerido.
+
+Steps:
+1. Intentar acceder a ruta restringida
+
+Expected Result:
+El sistema deniega el acceso y muestra mensaje de autorización.

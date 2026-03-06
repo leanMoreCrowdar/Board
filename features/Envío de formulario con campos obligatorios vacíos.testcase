@@ -1,0 +1,24 @@
+#ltm_test_case_id: - 93b7303e-46ad-43fb-8e73-10d1f71dd924 - 
+
+Tags:
+@Formulario @Validation
+
+Identifier:
+TC027
+
+Title:
+Envío de formulario con campos obligatorios vacíos
+
+Description:
+Verificar que el sistema no permita envío de formularios incompletos.
+
+Preconditions:
+
+
+Steps:
+1. Acceder a formulario
+2. Dejar campos obligatorios vacíos
+3. Hacer clic en enviar
+
+Expected Result:
+El sistema muestra advertencias por cada campo obligatorio vacío.

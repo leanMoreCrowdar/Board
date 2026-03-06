@@ -1,0 +1,24 @@
+#ltm_test_case_id: - 07c64e0e-26e4-46c9-9bf2-3a9b49dfdce7 - 
+
+Tags:
+@Registro @Smoke
+
+Identifier:
+TC008
+
+Title:
+Registro exitoso de nuevo usuario
+
+Description:
+Verificar que un usuario pueda registrarse con todos los datos válidos.
+
+Preconditions:
+
+
+Steps:
+1. Ir a pantalla de registro
+2. Ingresar todos los campos correctamente
+3. Enviar formulario
+
+Expected Result:
+El sistema registra al usuario y muestra mensaje de éxito.

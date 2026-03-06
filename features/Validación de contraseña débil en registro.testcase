@@ -1,0 +1,24 @@
+#ltm_test_case_id: - 461e2274-74ca-4ec3-8034-0a460b59d15b - 
+
+Tags:
+@Registro @UI
+
+Identifier:
+TC009
+
+Title:
+Validación de contraseña débil en registro
+
+Description:
+Verificar que el sistema no permita registrar contraseñas débiles.
+
+Preconditions:
+
+
+Steps:
+1. Ir a pantalla de registro
+2. Ingresar contraseña simple como '1234'
+3. Enviar formulario
+
+Expected Result:
+El sistema muestra mensaje de advertencia sobre contraseña insegura.

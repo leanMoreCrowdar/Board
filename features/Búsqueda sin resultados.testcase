@@ -1,0 +1,23 @@
+#ltm_test_case_id: - 9215ea23-9001-425b-82a9-5cf270ba7e82 - 
+
+Tags:
+@Buscador @Regression
+
+Identifier:
+TC026
+
+Title:
+Búsqueda sin resultados
+
+Description:
+Verificar comportamiento del buscador ante entradas inexistentes.
+
+Preconditions:
+
+
+Steps:
+1. Ingresar texto no relacionado
+2. Ejecutar búsqueda
+
+Expected Result:
+El sistema muestra mensaje de "sin resultados".

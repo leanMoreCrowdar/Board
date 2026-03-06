@@ -1,0 +1,23 @@
+#ltm_test_case_id: - 1af73a30-b300-4ed6-822b-370b94d9e889 - 
+
+Tags:
+@UI @Smoke
+
+Identifier:
+TC023
+
+Title:
+Verificar carga de interfaz en resolución móvil
+
+Description:
+Verificar que el sistema cargue correctamente en pantallas pequeñas.
+
+Preconditions:
+
+
+Steps:
+1. Acceder desde móvil
+2. Verificar disposición de elementos
+
+Expected Result:
+La interfaz se adapta correctamente sin errores de diseño.
