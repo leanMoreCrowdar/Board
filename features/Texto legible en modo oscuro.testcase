@@ -1,0 +1,23 @@
+#ltm_test_case_id: - 605db553-f17d-4e99-a33b-2946f9389057 - 
+
+Tags:
+@UI @Regression
+
+Identifier:
+TC024
+
+Title:
+Texto legible en modo oscuro
+
+Description:
+Verificar que el modo oscuro no afecte la visibilidad del texto.
+
+Preconditions:
+Modo oscuro habilitado.
+
+Steps:
+1. Activar modo oscuro
+2. Navegar por las secciones
+
+Expected Result:
+El texto es legible en todas las vistas.

@@ -1,0 +1,23 @@
+#ltm_test_case_id: - 49c2dffb-c09e-405b-a35e-86ebfc794849 - 
+
+Tags:
+@Mensajes @Regression
+
+Identifier:
+TC033
+
+Title:
+Intento de enviar mensaje sin contenido
+
+Description:
+Verificar que el sistema no permita enviar mensajes vacíos.
+
+Preconditions:
+
+
+Steps:
+1. Abrir chat
+2. Enviar mensaje vacío
+
+Expected Result:
+El sistema bloquea el envío y muestra advertencia.

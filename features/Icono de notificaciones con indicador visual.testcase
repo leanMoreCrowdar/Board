@@ -1,0 +1,23 @@
+#ltm_test_case_id: - 2bca6e08-8532-472f-9ac4-32005e971443 - 
+
+Tags:
+@Notificaciones @UI
+
+Identifier:
+TC031
+
+Title:
+Icono de notificaciones con indicador visual
+
+Description:
+Verificar que el ícono de notificaciones muestre contador si hay nuevas.
+
+Preconditions:
+Usuario con notificaciones nuevas.
+
+Steps:
+1. Iniciar sesión
+2. Observar ícono de notificación
+
+Expected Result:
+El ícono muestra el contador de nuevas notificaciones.

@@ -1,0 +1,23 @@
+#ltm_test_case_id: - 4dbfeba0-bb08-44a6-a277-17e39e7cce06 - 
+
+Tags:
+@Reportes @Regression
+
+Identifier:
+TC040
+
+Title:
+Generar reporte con filtros
+
+Description:
+Verificar que los filtros aplicados afecten el contenido del reporte.
+
+Preconditions:
+Usuario con permisos.
+
+Steps:
+1. Aplicar filtros
+2. Generar reporte
+
+Expected Result:
+El reporte solo incluye la información filtrada.

@@ -1,0 +1,23 @@
+#ltm_test_case_id: - 5e53b669-79ed-4430-9692-767174db2d7c - 
+
+Tags:
+@Login @Security
+
+Identifier:
+TC012
+
+Title:
+Bloqueo tras múltiples intentos fallidos
+
+Description:
+Verificar que el sistema bloquee al usuario después de varios intentos fallidos.
+
+Preconditions:
+El usuario debe estar registrado.
+
+Steps:
+1. Ingresar usuario válido con contraseña incorrecta 5 veces
+2. Intentar acceder de nuevo
+
+Expected Result:
+El sistema bloquea temporalmente el acceso.

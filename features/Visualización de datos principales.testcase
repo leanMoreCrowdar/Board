@@ -1,0 +1,23 @@
+#ltm_test_case_id: - 1f941053-bb20-46d7-a9c8-46323b820779 - 
+
+Tags:
+@Dashboard @Smoke
+
+Identifier:
+TC013
+
+Title:
+Visualización de datos principales
+
+Description:
+Verificar que el usuario pueda ver correctamente la información en el dashboard.
+
+Preconditions:
+El usuario debe haber iniciado sesión.
+
+Steps:
+1. Iniciar sesión
+2. Acceder al dashboard
+
+Expected Result:
+El sistema muestra los widgets e información sin errores.

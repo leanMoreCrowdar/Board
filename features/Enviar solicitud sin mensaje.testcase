@@ -1,0 +1,22 @@
+#ltm_test_case_id: - 3e44b162-c7a3-4093-8e05-23779a1d40fc - 
+
+Tags:
+@Soporte @Regression
+
+Identifier:
+TC046
+
+Title:
+Enviar solicitud sin mensaje
+
+Description:
+Verificar que no se permita enviar soporte sin mensaje.
+
+Preconditions:
+
+
+Steps:
+1. Enviar formulario vacío
+
+Expected Result:
+El sistema muestra advertencia.

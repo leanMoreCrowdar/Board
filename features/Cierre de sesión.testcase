@@ -1,0 +1,22 @@
+#ltm_test_case_id: - 9a6ac1e0-8f0f-4103-a601-0e6c20630246 - 
+
+Tags:
+@Logout @Smoke
+
+Identifier:
+TC015
+
+Title:
+Cierre de sesión
+
+Description:
+Verificar que el usuario pueda cerrar sesión correctamente.
+
+Preconditions:
+El usuario debe haber iniciado sesión.
+
+Steps:
+1. Hacer clic en botón de cerrar sesión
+
+Expected Result:
+El sistema cierra la sesión y redirige al login.

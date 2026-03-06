@@ -1,0 +1,23 @@
+#ltm_test_case_id: - ec805e38-2363-4a8e-b10d-0b0188a6b701 - 
+
+Tags:
+@Carga @UI
+
+Identifier:
+TC036
+
+Title:
+Carga de archivo válido
+
+Description:
+Verificar que el sistema acepte archivos con formatos permitidos.
+
+Preconditions:
+
+
+Steps:
+1. Seleccionar archivo .pdf válido
+2. Subir archivo
+
+Expected Result:
+El archivo se carga y se guarda correctamente.

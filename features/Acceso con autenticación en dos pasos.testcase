@@ -1,0 +1,24 @@
+#ltm_test_case_id: - 3c443c52-bac3-4d99-804b-9ab981bb3abe - 
+
+Tags:
+@Login @Smoke
+
+Identifier:
+TC050
+
+Title:
+Acceso con autenticación en dos pasos
+
+Description:
+Verificar que el usuario pueda completar login con OTP.
+
+Preconditions:
+Usuario configurado con 2FA.
+
+Steps:
+1. Ingresar usuario y contraseña
+2. Ingresar OTP
+3. Acceder
+
+Expected Result:
+El sistema permite el acceso tras validar el OTP.

@@ -1,0 +1,23 @@
+#ltm_test_case_id: - 603bf3d7-626e-4c7b-8297-70b7ca844886 - 
+
+Tags:
+@Mensajes @Smoke
+
+Identifier:
+TC032
+
+Title:
+Enviar mensaje a otro usuario
+
+Description:
+Verificar que el sistema permita enviar mensajes internos.
+
+Preconditions:
+Ambos usuarios registrados.
+
+Steps:
+1. Escribir mensaje
+2. Enviar a usuario válido
+
+Expected Result:
+El sistema confirma el envío del mensaje.

@@ -1,0 +1,23 @@
+#ltm_test_case_id: - f8472ce9-a86e-4bda-9f8e-c92591229d93 - 
+
+Tags:
+@Registro @UI
+
+Identifier:
+TC019
+
+Title:
+Verificar coincidencia de contraseñas
+
+Description:
+Verificar que el sistema solicite repetir contraseña y valide coincidencia.
+
+Preconditions:
+
+
+Steps:
+1. Ingresar contraseña y repetirla diferente
+2. Enviar formulario
+
+Expected Result:
+El sistema muestra mensaje de error indicando que las contraseñas no coinciden.

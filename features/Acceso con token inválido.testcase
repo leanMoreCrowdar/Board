@@ -1,0 +1,22 @@
+#ltm_test_case_id: - 3307b06f-ec7b-4e9d-bc0c-8870065861b5 - 
+
+Tags:
+@API @Security
+
+Identifier:
+TC029
+
+Title:
+Acceso con token inválido
+
+Description:
+Verificar que la API rechace tokens inválidos.
+
+Preconditions:
+
+
+Steps:
+1. Hacer una solicitud con token inválido
+
+Expected Result:
+La API responde con error 401.

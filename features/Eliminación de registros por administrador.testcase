@@ -1,0 +1,23 @@
+#ltm_test_case_id: - e6f7aae4-6e67-42fe-a11d-6a61e5e08ab7 - 
+
+Tags:
+@Permisos @Admin
+
+Identifier:
+TC035
+
+Title:
+Eliminación de registros por administrador
+
+Description:
+Verificar que un administrador pueda eliminar registros.
+
+Preconditions:
+Usuario con rol administrador.
+
+Steps:
+1. Acceder como admin
+2. Eliminar un registro
+
+Expected Result:
+El sistema elimina el registro correctamente.
